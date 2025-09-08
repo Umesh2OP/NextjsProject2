@@ -15,7 +15,7 @@ export default function Navbar() {
   }
 
   const handleLogout = () => {
-    toast.success("Logged out successfully 👋")
+    toast.success("Logging you out successfully 👋")
     signOut()
   }
 
